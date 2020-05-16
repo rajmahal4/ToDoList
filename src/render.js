@@ -66,8 +66,8 @@ function renderTasks(selectedList){
         <div class = 'tasks'>
         <td> ${task.name}</td>
         <td> ${task.description} </td>
-        <td> ${task.date} </td>
-        <td> ${task.priority} </td>
+        <td> Due: ${task.date} </td>
+        <td> Priority: ${task.priority} </td>
         <td><button class = "remove" ></button></td>
         </div>
         `;
