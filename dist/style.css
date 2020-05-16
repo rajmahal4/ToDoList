@@ -264,9 +264,6 @@ visibility: hidden;
 .listContainer{
 display: flex;
 flex-direction: column;
-
-
-
 }
 .submit {
   background-color: #4CAF50;
@@ -276,41 +273,37 @@ flex-direction: column;
   cursor: pointer;
   opacity: 0.8;
 }
+
+
 .todo-header {
 display: flex;
 background-color: #ddd;
-
-
 color: black;
-
 padding: 20px 10px;
 text-decoration: none;
 font-size: 12px;
-
-
-
 font-size: 16px;
 }
+
+
 .todo-header h2{
 display: flex;
-
 font-size: 16px;
 
 }
-.task-container{
 
+
+.task-container{
 display: flex;
 flex-direction: column;
-height: auto;
 text-align: center;
 color: black;
 text-align: center;
 padding: 20px 10px;
-text-decoration: none;
 font-size: 12px;
-line-height: 25px;
+line-height: 2px;
 border-radius: 4px;
-
+width: 100%;
 font-size: 16px;
 }
 
@@ -319,10 +312,10 @@ font-size: 16px;
 
 .row{
 display: table;
+
 background-color: rosybrown;
 font-family: monospace;
 border: black solid;
-width: 100%;
 
 }
 .remove{
